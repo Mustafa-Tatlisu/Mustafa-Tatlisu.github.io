@@ -1,0 +1,65 @@
+body {
+  background: rgb(247, 254, 255);
+  background: -moz-linear-gradient(180deg, rgba(247, 254, 255, 1) 59%, rgba(220, 249, 255, 1) 90%, rgba(0, 212, 255, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(247, 254, 255, 1) 59%, rgba(220, 249, 255, 1) 90%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(180deg, rgba(247, 254, 255, 1) 59%, rgba(220, 249, 255, 1) 90%, rgba(0, 212, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7feff", endColorstr="#00d4ff", GradientType=1);
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  color: #04928f;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  padding-top: 10rem;
+}
+
+/****************************CLASS SELECTORS***********************/
+.navbar {
+  margin-bottom: 20px;
+  padding: .9rem 1rem;
+}
+
+.nav-left {
+  border-bottom: 2px solid #13345a;
+  margin: auto;
+  min-width: 190px;
+  max-width: 14%;
+}
+
+.top-buffer {
+  margin: 10rem 0rem;
+}
+
+@media (max-width: 990px) {
+  .content-buffer {
+    margin-top: 5rem;
+  }
+}
+
+.important-link {
+  color: #fc5185;
+}
+
+.gen-text {
+  color: ##0e2947;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Interactive-Resume {
+  font-size: 11px;
+}
+
+.ability-title {
+  font-size: 14px;
+  padding-right: 0px;
+}
