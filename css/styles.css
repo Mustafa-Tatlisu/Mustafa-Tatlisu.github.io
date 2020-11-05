@@ -1,6 +1,7 @@
 body {
   background: #f7feff;
   text-align: center;
+  font-size: 14px;
   font-family: 'Merriweather', serif;
 }
 
@@ -16,18 +17,26 @@ h2 {
 }
 
 h3 {
+  font-size: 18px;
   padding-top: 10rem;
 }
 
  h4 {
-  font-size: 14px;
+  font-size: 12px;
     margin: 40 20%;
 
 }
 
 h4:hover{
-    padding: 40 20%;
-    border-bottom: 5px solid rgba(19, 52, 90, 0.5);
+    border-bottom: 2px solid rgba(19, 52, 90, 0.5);
+}
+
+h5 {
+
+  font-size: 17px;
+}
+p{
+  font-size: 14px;
 }
 
 /****************************CLASS SELECTORS***********************/
