@@ -1,7 +1,11 @@
 body {
   background: #f7feff;
+  /*background-color: #ebfcff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Merriweather', serif;
 }
 
@@ -11,7 +15,7 @@ h1 {
 
 h2 {
   color: #04928f;
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   margin: auto;
 }
@@ -33,17 +37,23 @@ h4:hover{
 
 h5 {
 
-  font-size: 17px;
+  font-size: 14px;
 }
 p{
   font-size: 14px;
 }
 
 /****************************CLASS SELECTORS***********************/
-.navbar {
-  margin-bottom: 20px;
-  padding: .9rem 1rem;
+.testy{
+    border-bottom: 20px solid #13345a;
 }
+.navbar {
+opacity: 80%;
+     max-height: 45px;
+background-color: #ffffc9;
+FO-color:
+
+  }
 
 .nav-left {
   border-bottom: 2px solid #13345a;
@@ -56,10 +66,30 @@ p{
   margin: 10rem 0rem;
 }
 
+.nav-item{
+color: black;
+background-color: lightblue;
+width: 30%;
+margin-left: 70%;
+margin-top: -3px;
+}
+.nav-item:after {
+    color: black;
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-bottom: 0px;  /* This creates some space between the element and the border. */
+    margin-bottom: 15px;
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
 @media (max-width: 990px) {
   .content-buffer {
     margin-top: 5rem;
   }
+
 }
 
 .important-link {
@@ -72,10 +102,198 @@ p{
 }
 
 .Interactive-Resume {
-  font-size: 11px;
+  font-size: 14px;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+width: 47px;
+height: 34px;
+outline: none;
+border: none;
+
 }
 
 .ability-title {
   font-size: 14px;
   padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+/******************************************************/
+/* Icon 1 */
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+width: 25px;
+height: 25px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+display: block;
+position: absolute;
+height: 2px;
+width: 100%;
+border-radius: 9px;
+opacity: 100;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+//icon color
+.animated-icon1 span {
+background: #e65100;
+}
+
+.animated-icon2 span {
+background: #e3f2fd;
+}
+
+.animated-icon3 span {
+background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+
+/* Icon 3*/
+
+.animated-icon2 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+/* Icon 4 */
+
+.animated-icon3 span:nth-child(1) {
+top: 0px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) {
+top: 10px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+top: 20px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+top: 0px;
+left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+width: 0%;
+opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+top: 21px;
+left: 8px;
 }

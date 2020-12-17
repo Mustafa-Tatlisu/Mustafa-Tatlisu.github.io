@@ -10,6 +10,11 @@
   <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
 
   <link rel="stylesheet" href="css/styles.css">
   <title>Mustafa Tatlisu</title>
@@ -35,39 +40,42 @@
       </div>
     </div>
 
-    <div class="row ">
-      <div class="col-md-12">
-        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-          <a class="navbar-brand d-flex mr-auto"> Interactive Resume</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="#About Me"><h4>About Me</h4></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Education"><h4>Education</h4></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Skills"><h4>Skills</h4></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Projects"><h4>Projects</h4></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Experience"><h4>Experience</h4></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact"><h4>Contact</h4></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <!--/.Navbar-->
+
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-dark indigo darken-2">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand gen-text" href="#" style="color: black;">Beta;Interactive Resume</a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+        aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon3"><span></span><span></span><span></span></div>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <!-- Links -->
 
       </div>
-    </div>
+      <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
 
     <div class="row">
       <div class="col-md-3 nav-left ">
@@ -244,10 +252,10 @@ Helped test and create the scripts for the test bed
 
     <div class="row top-buffer">
       <div class="col-md-3 nav-left">
-        <h2 id="Projects" class="h2-edit">Projects</h2>
+        <h2 id="Projects" class="h2-edit" >Projects</h2>
       </div>
 
-      <div class=" col-md-8 gen-text content-buffer">
+      <div class=" col-md-8 gen-text content-buffer"  style="text-align: left;">
 
             <div class = "row">
 
@@ -304,22 +312,40 @@ Custom Linux Scheduler, Software Developer,, 2020
 
 
 
+    <!-- Footer -->
+    <footer class="page-footer font-small blue darken-3">
 
-    <div class="col-md-12">
-      <h3 id="Contact"> tatlisumustafa3@gmail.com
-      </h3>
+      <!-- Footer Elements -->
 
-    </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <!--Linkedin -->
+        <a class="li-ic">
+          <i class="fab fa-linkedin-in fa-md mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+        <a href=" "> tatlisumustafa3@gmail.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 
 
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-
+<script type="text/javascript" src="/js/myScript.js"></script>
 </body>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+<script type="text/javascript" src="js/myScript.js"></script>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 
 </html>
