@@ -5,7 +5,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
  This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Merriweather', serif;
 }
 
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
   color: #04928f;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   margin: auto;
 }
@@ -61,6 +61,7 @@ FO-color:
   min-width: 190px;
   max-width: 14%;
 }
+
 
 .top-buffer {
   margin: 10rem 0rem;
