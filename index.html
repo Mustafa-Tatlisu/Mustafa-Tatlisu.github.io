@@ -6,31 +6,42 @@
   <meta charset="utf-8">
   <meta name="keywords" content="HTML, CSS, JavaScript, Developer">
   <meta name="author" content="Mustafa Tatlisu">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
-  <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+  <link rel="stylesheet" href="css/cssmdb/bootstrap.min.css">
+  <link rel="stylesheet" href="css/cssmdb/mdb.min.css">
+  <link rel="stylesheet" href="css/cssmdb/style.css">
+
+
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <noscript>Sorry, your browser does not support JavaScript!</noscript>
+  <script type="text/javascript" src="js/myScript.js"></script>
 
   <link rel="stylesheet" href="css/styles.css">
+
+
   <title>Mustafa Tatlisu</title>
 </head>
 
-<body style="margin-left: 01%; margin-right: 02%;">
-  <div class="container-fluid">
-    <div style="margin-bottom: 22%;">
+<body>
+  <div class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+    <div id="landing-page">
 
-      <div class="row" style="margin-top: 07%;">
+      <div class="row" style="padding-top: 07%;">
         <div class="col-md-12">
           <img src="circle-cropped.png" alt="Its me" style="width:128px;height:128px;">
         </div>
 
       </div>
-      <div class="row" style="margin-top: 2rem;">
+      <div class="row" style="padding-top: 2rem;">
         <div class="col-md-12">
 
           <h5>Mustafa Tatlisu</h5>
@@ -38,56 +49,58 @@
         </div>
 
       </div>
+      <!--Navbar-->
+      <nav class="margin-start navbar navbar-light amber lighten-4 mb-4" id="make-fixed" >
+
+        <!-- Navbar brand -->
+        <div>
+
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+          aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon1"><span></span><span></span><span></span></div>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About Me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacts">Contact Me</a>
+            </li>
+          </ul>
+          <!-- Links -->
+
+        </div>
+        <!-- Collapsible content -->
+
+      </nav>
     </div>
 
-    <!--/.Navbar-->
 
-    <!--Navbar-->
-    <nav class="navbar fixed-top navbar-dark indigo darken-2">
 
-      <!-- Navbar brand -->
-      <a class="navbar-brand gen-text" href="#" style="color: black;">In Beta: Interactive Resume</a>
-
-      <!-- Collapse button -->
-      <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
-        aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="animated-icon3"><span></span><span></span><span></span></div>
-      </button>
-
-      <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent22">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Projects">Projets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contacts">Contact</a>
-          </li>
-        </ul>
-        <!-- Links -->
-
-      </div>
-      <!-- Collapsible content -->
-
-    </nav>
-    <!--/.Navbar-->
 
     <div class="row">
       <div class="col-md-3 nav-left ">
@@ -341,7 +354,7 @@ Custom Linux Scheduler, Software Developer,, 2020
         <a class="li-ic">
           <i class="fab fa-linkedin-in fa-md mr-md-5 mr-3 fa-2x"> </i>
         </a>
-        <a href="#Contacts"> tatlisumustafa3@gmail.com</a>
+        <a id="Contacts"> tatlisumustafa3@gmail.com</a>
       </div>
       <!-- Copyright -->
 
@@ -352,17 +365,6 @@ Custom Linux Scheduler, Software Developer,, 2020
   </div>
 
 </body>
-<noscript>Sorry, your browser does not support JavaScript!</noscript>
-<script type="text/javascript" src="js/myScript.js"></script>
-
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 
 </html>

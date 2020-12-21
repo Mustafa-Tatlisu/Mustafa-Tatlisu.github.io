@@ -1,4 +1,12 @@
+html{
+  overflow-x: hidden;
+}
 body {
+  width:100%;
+height:100%:
+
+padding:0px;
+margin-left: 0px;
   background: #f7feff;
   /*background-color: #ebfcff;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
@@ -44,16 +52,24 @@ p{
 }
 
 /****************************CLASS SELECTORS***********************/
+#landing-page{
+  height: 100vh;
+  width: 100vw;
+}
+
+.margin-start{
+    margin-top: calc(55vh - 40px);
+}
+
 .testy{
     border-bottom: 20px solid #13345a;
 }
-.navbar {
-opacity: 80%;
-     max-height: 45px;
-background-color: #ffffc9;
-FO-color:
 
-  }
+.navbar {
+opacity: 60%;
+max-height: 35px;
+  width: 100vw;
+}
 
 .nav-left {
   border-bottom: 2px solid #13345a;
@@ -62,33 +78,22 @@ FO-color:
   max-width: 14%;
 }
 
-
 .top-buffer {
   margin: 10rem 0rem;
 }
 
-.nav-item{
-color: black;
+.nav-link:hover{
 background-color: lightblue;
-width: 30%;
-margin-left: 70%;
-margin-top: -3px;
 }
-.nav-item:after {
-    color: black;
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 30%; /* Change this to whatever width you want. */
-    padding-bottom: 0px;  /* This creates some space between the element and the border. */
-    margin-bottom: 15px;
-    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+.navbar-brand{
+  margin-top: -10px;
 }
-
 
 @media (max-width: 990px) {
   .content-buffer {
     margin-top: 5rem;
+    margin-left: 10px;
+    margin-right: 5px;
   }
 
 }
@@ -109,10 +114,8 @@ margin-top: -3px;
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-width: 47px;
-height: 34px;
-outline: none;
-border: none;
+width: 37px;
+height: 24px;
 
 }
 
@@ -132,10 +135,10 @@ border: none;
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
-width: 25px;
-height: 25px;
+width: 30px;
+height: 15px;
 position: relative;
-margin: 0px;
+margin-right: 0px;
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
 -o-transform: rotate(0deg);
@@ -150,10 +153,11 @@ cursor: pointer;
 .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
 display: block;
 position: absolute;
-height: 2px;
+margin-left: -30px;
+height: 3px;
 width: 100%;
 border-radius: 9px;
-opacity: 100;
+opacity: 1;
 left: 0;
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
@@ -164,7 +168,7 @@ transform: rotate(0deg);
 -o-transition: .25s ease-in-out;
 transition: .25s ease-in-out;
 }
-//icon color
+
 .animated-icon1 span {
 background: #e65100;
 }
@@ -186,11 +190,12 @@ top: 10px;
 }
 
 .animated-icon1 span:nth-child(3) {
-top: 20px;
+top: -10px;
+
 }
 
 .animated-icon1.open span:nth-child(1) {
-top: 11px;
+top: 0px;
 -webkit-transform: rotate(135deg);
 -moz-transform: rotate(135deg);
 -o-transform: rotate(135deg);
@@ -199,11 +204,12 @@ transform: rotate(135deg);
 
 .animated-icon1.open span:nth-child(2) {
 opacity: 0;
-left: -60px;
+left: -30px;
 }
 
 .animated-icon1.open span:nth-child(3) {
-top: 11px;
+top: 0px;
+
 -webkit-transform: rotate(-135deg);
 -moz-transform: rotate(-135deg);
 -o-transform: rotate(-135deg);
@@ -221,7 +227,7 @@ top: 10px;
 }
 
 .animated-icon2 span:nth-child(4) {
-top: 20px;
+top: 0px;
 }
 
 .animated-icon2.open span:nth-child(1) {
@@ -297,4 +303,8 @@ opacity: 0;
 transform: rotate(-45deg);
 top: 21px;
 left: 8px;
+}
+/******************************************************/
+.page-footer{
+  margin: -3% -3%;
 }
