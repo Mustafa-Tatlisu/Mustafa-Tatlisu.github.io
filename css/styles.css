@@ -90,6 +90,11 @@ background-color: lightblue;
     margin-left: 10px;
     margin-right: 5px;
   }
+  .navbar {
+  opacity: 100%;
+  max-height: 35px;
+    width: 100vw;
+  }
 
 }
 

@@ -21,11 +21,8 @@ $(document).scroll(function() {  //alert("This alert box was called with the onl
   //  console.log(document.documentElement.clientHeight)
     if($(window).scrollTop() >= scrollTop){
       document.getElementById("make-fixed").classList.remove("margin-start");
-
-document.getElementById("make-fixed").classList.add("fixed-top");
-    if($(window).scrollTop() >= scrollTop){
-document.getElementById("make-fixed").classList.add("scrolling-navbar");
-}
+      document.getElementById("make-fixed").classList.add("scrolling-navbar");
+      document.getElementById("make-fixed").classList.add("fixed-top");
 } else {
   //    alert("This alert bo11111the onload event");
         document.getElementById("make-fixed").classList.remove("fixed-top");
