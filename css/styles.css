@@ -61,7 +61,7 @@ p{
 }
 
 .navbar {
-opacity: 60%;
+opacity: 100%;
 max-height: 35px;
   width: 100vw;
 }
@@ -76,7 +76,10 @@ max-height: 35px;
 .top-buffer {
   margin: 10rem 0rem;
 }
+.nav-link{
+  background-color: #ffffff;
 
+}
 .nav-link:hover{
 background-color: lightblue;
 }
@@ -100,6 +103,11 @@ background-color: lightblue;
 
 .important-link {
   color: #fc5185;
+}
+
+.sub-text{
+ font-size: 11px;
+
 }
 
 .gen-text {
