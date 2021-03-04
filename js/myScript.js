@@ -1,17 +1,20 @@
 
 $(document).ready(function () {
   $('.first-button').on('click', function () {
+    ///alert("This alert bo11111the onload event");
+
 
     $('.animated-icon1').toggleClass('open');
   });
-  $('.second-button').on('click', function () {
 
-    $('.animated-icon2').toggleClass('open');
-  });
-  $('.third-button').on('click', function () {
+  $('.nav-link').on('click', function () {
+    //Every Toggle triggersa only the firt one
+    alert("This alert bo2222the onload event");
 
-    $('.animated-icon3').toggleClass('open');
+
+    $('.animated-icon1').toggleClass('open');
   });
+
 });
 document.documentElement.clientHeight
 //  alert("This alert box was called with the onload event");
